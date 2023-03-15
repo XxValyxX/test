@@ -1,0 +1,104 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel = "icon" href ="https://cdn-icons.flaticon.com/png/512/3287/premium/3287868.png?token=exp=1656408316~hmac=4c501e4c965df1c76a880a7853164a85" type = "image/x-icon">
+  <title>AllBook-Contact</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+          <script src="form.js"></script>
+    <!-- App title -->
+    <title>AllBook</title>
+    <!-- Link CSS file -->
+</head>
+<body>
+    <!-- Navigation bar -->
+    <header class="header">
+        <!-- Logo -->
+        <img src="logo.jpg" alt="logo" height="70" width="100">
+        <!-- Hamburger icon -->
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <!-- Menu -->
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#">Carti</a> </li>
+                <li><a href="login.html">Login</a></li>
+                <li class="nav-link"><a href="contact.html"><span>Contact</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main content -->
+    <main class="content">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6 " id="form_container">
+                  <h2>Contact Us</h2>
+                  <p> Pentru mai multe informatii,nelamuriri sau imbunatatiri lasati un mesaj </p>
+                  <form role="form" method="post" id="reused_form">
+                      <div class="row">
+                          <div class="col-sm-12 form-group">
+                              <label for="message"> Mesaj:</label>
+                              <textarea class="form-control" type="textarea" id="message" name="message" maxlength="6000" rows="7"></textarea>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-sm-6 form-group">
+                              <label for="name"> Nume:</label>
+                              <input type="text" class="form-control" id="name" name="name" required>
+                          </div>
+                          <div class="col-sm-6 form-group">
+                              <label for="email"> Email:</label>
+                              <input type="email" class="form-control" id="email" name="email" required>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-sm-12 form-group">
+                              <button type="submit" class="btn btn-lg btn-default pull-right" >Send &rarr;</button>
+                          </div>
+                      </div>
+                  </form>
+                  <div id="success_message" style="width:100%; height:100%; display:none; "><img src="undraw_Mobile_messages_re_yx8w.png" alt="succes"><h3> Mesaj trimis cu succes!</h3> </div>
+                  <div id="error_message" style="width:100%; height:100%; display:none; "><img src="undraw_server_down_s4lk.png" alt="error"> <h3>Error</h3> ne pare rau,mesajul tau nu a putut fi transmis. </div>
+              </div>
+          </div>
+      </div>
+    </main>
+    <section>
+      <footer>
+          <div class="footer-content">
+              <h3>AllBook</h3>
+              <p>AllBook este locul in care orice vis devine realitate,indiferent de varsta,dar si locul in care viata ta se poate modifica complet.</p>
+              <ul class="socials">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+              </ul>
+              <div class="footer-menu">
+                <ul class="f-menu">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Carti</a> </li>
+                  <li><a href="#">Login</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+          </div>
+          <div class="footer-bottom">
+              <p>Design By - <a href="contact.html">AllBook</a>  </p>
+
+          </div>
+
+      </footer>
+    </section>
+
+</body>
+</html>
